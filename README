@@ -52,3 +52,27 @@ Dependencies:
     |-- sqlite-3_6_16.zip
     `-- sqlitedll-3_6_16.zip
 
+Download dependencies from:
+http://www.sqlite.org/download.html
+ftp://ftp.ruby-lang.org/pub/ruby/1.8/
+ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/
+http://rubyforge.org/projects/rubygems/ -> http://rubyforge.org/frs/?group_id=126
+
+In Linux it is necessary to replace: 
+#!/usr/bin/ruby1.8 
+By: #!/usr/bin/env ruby
+
+GEMS:
+gem update --system -V --no-ri --no-rdoc
+gem sources -a http://gems.github.com
+gem install rails -V 
+gem install mongrel -V 
+gem install sqlite3-ruby -V 
+gem install mysql -V 
+gem install pg -V 
+gem install mislav-will_paginate -V 
+gem install paperclip -V 
+gem install rspec -V 
+gem install rspec-rails -V 
+gem install josevalim-rails-footnotes -V 
+
