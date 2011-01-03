@@ -1,0 +1,33 @@
+----------------------
+Easy Rails - ChangeLog
+----------------------
+
+0.9.5 (2009-06-02)
+- Bug Fix: installation path may have space characters now. Bug reported by Lucas de Castro.
+  Changes were made to scripts in ruby/bin directory: rails, rake, mongrel_rails, autospec,
+  gpgen, spec, update_rubygems
+- Updated Rubygems from 1.3.3 to 1.3.4.
+
+0.9.4 (2009-05-28)
+- Added pt-BR i18n to ActiveScaffold.
+- Removed active_scaffold_localize plugin
+- Added render_component plugin (required by ActiveScaffold)
+
+0.9.3 (2009-05-27)
+- Added brtraducao (2.0.15) gem
+- Moved dlls from bin to ruby\bin directory to avoid conflict with dlls installed in windows\system32
+
+0.9.2 (2009-05-22)
+- Now uses Ruby 1.8.7 (2009-04-08 patchlevel 160) [i386-mswin32]
+- Ruby One-Click-Installer no longer used
+- Upgrade to Scite 1.7.8
+- New and improved directory structure
+- Supports connections to SQLite, MySQL and PostgreSQL
+- Includes SQLite 3.6.14.1
+- Fix Mongrel CTRL-C shutdown under Windows (patch from Charles Bedard)
+- Added resource_controller gem
+- Added restful_transactions plug-in
+
+0.9.1 (2009-05-14) 
+- First public release
+- Based on One-Click Ruby Installer 186-27-RC2

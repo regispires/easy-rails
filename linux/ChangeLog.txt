@@ -1,0 +1,15 @@
+============================
+Easy Rails Linux - ChangeLog
+============================
+
+0.9.3 (2010-09-21)
+  * Bug Fix: added libreadline.so.5 to avoid no such file problem in some linux 
+    distributions (reported by Felipe Goncalves)
+
+0.9.2 (2009-06-15)
+  * Bug Fix: some scripts were using absolute paths and could not run properly 
+    (reported by Lucas de Castro). Now changed to use relative paths.
+
+0.9.1 (2009-06-14)
+  * First public release
+
