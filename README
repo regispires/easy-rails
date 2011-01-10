@@ -3,15 +3,14 @@ Easy Rails
 ----------
 
 Easy Rails is a light and easy way of using Ruby on Rails under Linux and Windows.
-
-Download final versions on: http://rubyforge.org/projects/easy-rails/
-
 No installation required.
 Unpack, use and enjoy (just run ruby_console).
 No need of administrative rights to "install" and use it.
 
-IMPORTANT: 
-DO NOT uncompress easy-rails in a directory path that contains accented characters.
+Download binary final versions on: http://rubyforge.org/projects/easy-rails/
+
+Here in Github we have scripts to automate the creation of new binary versions.
+
 
 Easy Rails uses:
   Ruby
@@ -25,54 +24,5 @@ Quick Installation:
 Give us some feedback and suggestions in order to improve this tool and
 to make our work with Rails even easier and better.
 
-The build script is incomplete.
-
-Dependencies:
-|-- common
-|   |-- root
-|   |   |-- rails-i18n
-|   |   `-- rails-plugins
-|   `-- rubygems-1.3.5.zip
-|-- linux
-|   |-- bin
-|   |   |-- initialize.sh
-|   |   |-- install_gems.sh
-|   |   `-- install_rubygems.sh
-|   |-- root
-|   |   |-- ChangeLog.txt
-|   |   |-- Readme.txt
-|   |   |-- ruby_console.sh
-|   |   `-- version.txt
-|   |-- ruby-1.8.7-p174
-|   |-- ruby-1.8.7-p174.tar.bz2
-|   |-- sqlite3-3.6.16.bin.gz
-|   `-- sqlite-3.6.16.so.gz
-`-- windows
-    |-- ruby-1.8.7-p174-i386-mswin32.zip
-    |-- sqlite-3_6_16.zip
-    `-- sqlitedll-3_6_16.zip
-
-Download dependencies from:
-http://www.sqlite.org/download.html
-ftp://ftp.ruby-lang.org/pub/ruby/1.8/
-ftp://ftp.ruby-lang.org/pub/ruby/binaries/mswin32/
-http://rubyforge.org/projects/rubygems/ -> http://rubyforge.org/frs/?group_id=126
-
-In Linux it is necessary to replace: 
-#!/usr/bin/ruby1.8 
-By: #!/usr/bin/env ruby
-
-GEMS:
-gem update --system -V --no-ri --no-rdoc
-gem sources -a http://gems.github.com
-gem install rails -V 
-gem install mongrel -V 
-gem install sqlite3-ruby -V 
-gem install mysql -V 
-gem install pg -V 
-gem install mislav-will_paginate -V 
-gem install paperclip -V 
-gem install rspec -V 
-gem install rspec-rails -V 
-gem install josevalim-rails-footnotes -V 
+The linux build script is incomplete.
 

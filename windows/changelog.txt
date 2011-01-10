@@ -2,6 +2,18 @@
 Easy Rails - ChangeLog
 ----------------------
 
+0.9.7 (2011-01-10)
+- Now using RubyInstaller (http://rubyinstaller.org/) binaries and docs
+- Updated to Ruby 1.9.2p136 (2010-12-25) [i386-mingw32]
+- Updated to mongrel prerelease gem
+- Removed Rails 2.3.10 (using Rails 3.0.3)
+
+0.9.6 (2011-01-08)
+- Updated to Rails 2.3.10 and 3.0.3.
+- Updated to Rubygems 1.4.1, Sqlite 3.7.4 and Scite 2.23.
+- Removed all Rails plugins.
+- Removed some gems (see readme.txt).
+
 0.9.5 (2009-06-02)
 - Bug Fix: installation path may have space characters now. Bug reported by Lucas de Castro.
   Changes were made to scripts in ruby/bin directory: rails, rake, mongrel_rails, autospec,
