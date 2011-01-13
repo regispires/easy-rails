@@ -1,6 +1,5 @@
 @echo off
 call config.bat
-PATH %TARGET_DIR%\ruby\bin;%SOURCE_DIR%\windows\bin;%PATH%
 
 rem Creating directories
 if not exist "%DOWNLOAD_DIR%"        md "%DOWNLOAD_DIR%"

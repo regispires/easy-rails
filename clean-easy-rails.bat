@@ -8,3 +8,4 @@ if exist "%TARGET_DIR%" rd /s /q "%TARGET_DIR%"
 if exist "%TARGET_DIR%\..\easy-rails-%VERSION%.exe" del "%TARGET_DIR%\..\easy-rails-%VERSION%.exe"
 if exist "%TARGET_DIR%\..\easy-rails-%VERSION%.md5" del "%TARGET_DIR%\..\easy-rails-%VERSION%.md5"
 echo Directories and files removed successfully.
+

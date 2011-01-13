@@ -7,7 +7,9 @@ set SOURCE_DRIVE=%CD:~0,2%
 set SOURCE_DIR=%CD%
 set TARGET_DRIVE=%HOMEDRIVE%
 set TARGET_DIR=%HOMEDRIVE%%HOMEPATH%\easy-rails
-set DOWNLOAD_DIR=%SOURCE_DIR%\downloads
+set DOWNLOAD_DIR=%HOMEDRIVE%%HOMEPATH%\easy-rails-downloads
 
 set RUBY_HOME=%TARGET_DIR%\ruby
 set GEM_OPTIONS="--no-ri --no-rdoc"
+PATH %TARGET_DIR%\ruby\bin;%SOURCE_DIR%\windows\bin;%PATH%
+
