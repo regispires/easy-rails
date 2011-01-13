@@ -2,6 +2,14 @@
 Easy Rails Linux - ChangeLog
 ============================
 
+0.9.7 (2011-01-13)
+- From now on uses the same version number as its Easy Rails Windows equivalent 
+  version.
+- Now using RubyInstaller (http://rubyinstaller.org/) docs.
+- Updated to Ruby 1.9.2p136 (2010-12-25 revision 30365) [i686-linux].
+- Updated to mongrel prerelease gem.
+- Updated to Rails 3.0.3.
+
 0.9.3 (2010-09-21)
   * Bug Fix: added libreadline.so.5 to avoid no such file problem in some linux 
     distributions (reported by Felipe Goncalves)

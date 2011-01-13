@@ -1,7 +1,6 @@
 #!/bin/bash
 # Requires packages: build-essential patch zlib1g-dev libssl-dev libreadline5-dev
 #                    libsqlite3-dev libpq-dev libmysqlclient-dev
-# ./configure --prefix=/home/regis/ruby-enterprise-1.8.7-2010.02 --disable-dependency-tracking
 source ./config.sh
 
 # Creating directories
@@ -201,5 +200,4 @@ if [ $? -ne 0 ]; then
 fi
 echo Easy-rails md5sum created successfully.
 cd "$SOURCE_DIR"
-
 
